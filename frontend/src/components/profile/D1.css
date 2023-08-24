@@ -1,0 +1,382 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main_profile_container {
+    display: flex;
+}
+
+.main_profile_left {
+    /* background: rgb(254, 139, 139); */
+    width: 30%;
+    /* height: 80vh; */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.card_profile {
+    height: 88vh;
+    padding: 30px 0;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    background-image: url("./img/left.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-color: #f7f6f6;
+}
+
+.profile_id {
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: baseline;
+    margin-left: 45%;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+#profile_sidebar {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    margin-left: 40%;
+}
+
+#profile_sidebar:focus {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: #ECC268;
+
+}
+
+#profile_sidebar:hover {
+    color: #ECC268;
+}
+
+/* -------------------right container0--------------------- */
+
+.main_profile_right {
+    /* background: rgb(158, 205, 29); */
+    width: 70%;
+    height: 88vh;
+    overflow-y: scroll;
+    background-color: transparent;
+    border: 5px solid rgba(0, 0, 0, 0.123);
+    background-image: url('./img/right.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: top right;
+    background-color: #f7f6f6;
+}
+
+
+.profile_info {}
+
+.profile_info2 {
+    background-color: transparent;
+    border: 1px solid rgba(49, 4, 4, 0);
+    /* border-top-left-radius: 300px;
+    border-top-right-radius: 300px; */
+}
+
+.profile_info label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.form {
+    padding: 48px 38px 48px 38px;
+    display: flex;
+}
+
+#filled-read-only-input {
+    padding: 35px 0px 0px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#filled-number {
+    padding: 35px 0px 0px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
+}
+
+#texbox {
+    margin: 10px;
+    width: 40%;
+    height: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.profile_filed {
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.inputDiv_Profile {
+    width: 130%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.inputLabel_id {
+    font-size: 12px;
+    color: #555;
+    width: 160px;
+}
+
+/* manage address */
+
+.savedadd_box {
+    /* box-shadow: 5px 0px 18px 6px rgb(0 0 0 / 12%); */
+    border: 1px solid grey;
+    padding: 10px;
+    font-size: 18px;
+    margin: 20px 25px;
+}
+
+.savedadd_box:hover {
+    border-bottom: solid 1px blue;
+}
+
+.savedadd p {
+    color: black;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.savedadd #add_home {
+    color: #000000;
+    background-color: rgb(191 200 209);
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+.savedadd #addr_edit_opt {
+    border: solid 1px black;
+    background: white;
+    position: absolute;
+    font-size: 15px;
+    padding: 5px 10px;
+    right: 450px;
+    cursor: pointer;
+    display: none;
+}
+
+#addr_edit_opt:hover {
+    display: block;
+}
+
+#aaa:hover+#addr_edit_opt {
+    display: block;
+}
+
+#addr_edit_opt1:hover {
+    color: blueviolet;
+    transform: scale(1.1);
+}
+
+/* -----------button-------------- */
+.edit_btn {
+    padding: 10px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+}
+
+#edit_button {
+    text-decoration: none;
+    margin-left: 30px;
+    letter-spacing: 1.2px;
+    padding: 7px 30px;
+    border: solid 2px rgb(0, 79, 128);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 79, 128);
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+#edit_button:hover {
+    background-color: rgb(0, 79, 128);
+    color: white;
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.123);
+}
+
+#submit_button {
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 10px;
+    border: solid 2px green;
+    background-color: rgb(255, 255, 255);
+    color: green;
+    text-transform: uppercase;
+    /* le */
+    width: 105px;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+#submit_button:hover {
+    background: rgb(6, 146, 6);
+    color: white;
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.123);
+}
+
+#submit_button:active {
+    transform: scale(0.9);
+}
+
+#cancel_button {
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 10px;
+    border: solid 2px rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: red;
+    text-transform: uppercase;
+    width: 105px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+#cancel_button:hover {
+    background: rgb(146, 6, 6);
+    color: white;
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.123);
+
+}
+
+/* changepassword */
+.cl {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.cl label {
+    font-size: medium;
+}
+
+#texbox {
+    margin: 10px;
+    width: 40%;
+    height: 50px;
+    border: 1px solid gray;
+    background-color: rgb(207, 207, 207);
+}
+
+/* help */
+#heading {
+    margin: 70px 0px 10px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+}
+
+.issues {
+    margin: 50px 0px 10px 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#issues_a {
+    text-decoration: none;
+    background-color: rgb(197, 196, 196);
+    border: 1px solid grey;
+    color: black;
+    padding: 10px;
+    margin: 15px;
+    width: 70%;
+}
+
+.c1 {
+    padding: 10px;
+    padding-right: 0px;
+    margin: 5px;
+}
+
+.dropdown-btn :focus {
+    background-color: white
+}
+
+
+/* chnge pssss---------------------------------- */
+.inputDiv {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.inputLabel {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 6px;
+    margin-top: 24px;
+}
+
+
+#password {
+    width: 60%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    border: solid 1px #ccc;
+    padding: 0 11px;
+}
+
+/* error msg */
+#incorrect {
+    color: red;
+    display: none;
+}
+
+/* user form========================= */
+.user_detail_input {
+    width: 60%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    border: solid 1px #ccc;
+    padding: 0 11px;
+}
+
+.user_detail_input:focus {
+    outline: solid 1px rgb(204, 0, 255);
+}
+
+.input_err {
+    border: solid 1px red;
+}
+
+#addr_err{
+    color: red;
+    font-size: 14px;
+    margin-left: 40px;
+    display: none;
+}

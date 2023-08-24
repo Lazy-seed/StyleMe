@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.FQA_cont{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.FQA_img_cont{
+    margin-left: 40px;
+}
+.FQA_txt{
+    padding: 95px 130px 0px 0px;
+}
+#heading_fqa{
+    font-size: 48px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+}
+.QA{
+    background-color: rgba(128, 128, 128, 0.26);
+    margin: 20px;
+    padding: 30px;
+}
+.QA h3{
+    margin: 20px;
+}

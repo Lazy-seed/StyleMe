@@ -1,0 +1,59 @@
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.update_order_cont {
+  /* border: solid 1px red; */
+  width: 90%;
+}
+
+.update_order_box {
+  border: solid 1px rgb(0, 0, 0);
+  margin: 20px 50px;
+  display: flex;
+  height: 180px;
+  width: 80%;
+}
+.update_order_cont h2{
+  background: rgb(30, 122, 242);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding:  10px 0px;
+  height: 60px;
+}
+
+.update_order_box img {
+  /* width: 100px */
+  height: 100%;
+}
+
+.update_order_box_detail {
+  /* border: solid 1px orange; */
+  padding: 10px 20px;
+}
+
+.update_order_box_radio {
+  /* border: solid 1px blue; */
+  width: 200px;
+  padding: 10px 20px;
+}
+
+.status_box {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  font-size: 18px;
+}
+.status_box label {
+ margin-left: 10px;
+}
+
+.update_order_box_button{
+  position: relative;
+  top: 80px;
+  right: -100px;
+}
+
+

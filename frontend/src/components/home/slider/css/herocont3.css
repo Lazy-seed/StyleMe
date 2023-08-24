@@ -1,0 +1,71 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.herocont3 {
+    position: relative;
+    font-family: Arial;
+    height: 449px;
+    width: 1384px;
+    background-image: url("../img/sales.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: top right;
+    background-color: #80808061;
+}
+.container_h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-right: 150px;
+}
+#h3_img {
+    width: 100%;
+}
+
+.h3_content {
+    background-color: antiquewhite;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+}
+
+.list {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+.emoji {
+    display: none;
+    padding: 1rem;
+}
+
+.emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+    h1 {
+        font-size: calc(1.5rem * var(--smaller));
+    }
+
+    li {
+        font-size: calc(1.125rem * var(--smaller));
+    }
+
+    li span {
+        font-size: calc(3.375rem * var(--smaller));
+    }
+}

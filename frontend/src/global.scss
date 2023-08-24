@@ -1,0 +1,15 @@
+
+
+
+
+
+
+
+
+$laptop_width: 1030px;
+
+@mixin laptop {
+    @media (max-width:#{$laptop_width}) {
+        @content
+    }
+}

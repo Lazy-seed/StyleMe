@@ -1,0 +1,159 @@
+
+
+.navbar_container {
+  height: 100px;
+  background: #ffffff;
+  z-index: 99;
+}
+
+.navbar_wrapper {
+  height: 71px;
+  display: flex;
+  align-items: center;
+}
+
+.logo_box {
+  position: relative;
+  margin-top: 30px;
+  left: -40px;
+  font-weight: 800;
+}
+
+.logo_box img {
+  width: 300px;
+}
+
+.logo-txt {
+  font-size: calc(1.375rem + 1.5vw);
+  font-weight: 700;
+  color: #000000;
+}
+
+.search_box {
+  /* border: 1px solid black; */
+  position: relative;
+  left: 350px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.search_box input[type="text"] {
+  min-height: 40px;
+  min-width: 550px;
+  font-size: 18px;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: solid 1px black;
+}
+
+.search_box #srch_btn {
+  min-height: 40px;
+  min-width: 40px;
+  max-height: 40px;
+  max-width: 40px;
+  outline: none;
+  border: none;
+  position: relative;
+  top: 8px;
+  /* right: 48px; */
+  background: none;
+}
+
+.search_box #srch_btn img {
+  width: 60%;
+}
+
+.user_box {
+  /* border: 1px solid black; */
+  position: relative;
+  right: 400px;
+  min-width: 200px;
+  display: flex;
+  top: 10px;
+
+}
+
+
+.user_box .menu_btn {
+  /* border: solid 1px red; */
+  /* width: 80px; */
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-left: 10x;
+}
+
+.user_box #user_account {
+  color: #000;
+  /* border: solid 1px red; */
+}
+
+.user_box #user_account h6 {
+  color: #000;
+  font-weight: 800;
+  font-size: 16px;
+
+}
+
+
+.user_box .menu_btn h6 {
+  color: #000;
+  font-weight: 800;
+  font-weight: 600;
+  margin-left: 5px;
+  font-size: 17px;
+}
+
+.user_box img {
+  width: 25px;
+  margin: 0 1px;
+}
+
+
+/* impout box */
+.field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.167);
+  padding: .5rem;
+  border-radius: .25rem;
+  background-color: white;
+  margin: 10px 0px;
+}
+
+.field__label {
+  color: var(--color-gray);
+  font-size: 10px;
+  font-weight: 500;
+
+  text-transform: uppercase;
+  margin-bottom: 0.25rem
+}
+
+.field__input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: white;
+}
+
+.field:focus-within {
+  border-color: #1976d2;
+}
+
+/* signup error */
+#error_signup_text {
+  color: red;
+  display: none;
+}

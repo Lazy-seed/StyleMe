@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.f4 {
+    background-color: #cfe1f9;
+    padding-bottom: 30px;
+}
+
+#shop_heading {
+    display: flex;
+    justify-content: space-around;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.f4_Products {
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px;
+}
+.main_f4 {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 25%;
+    height: 99%;
+}
+#p1_box{
+    border: 10px solid #1976d24f;
+}
+#product1_box{
+    width: 274px;
+    height: 432px;
+    padding-top: 40px;
+}
+#p1_box:hover{
+    background-color: #1976d2bd;
+}

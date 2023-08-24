@@ -1,0 +1,176 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgba(110, 110, 110, 0.264);
+    background-color: rgb(233, 232, 232);
+    margin: 10px 40px;
+
+
+}
+
+.products_order_details {
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+}
+
+.address {
+    padding: 50px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.img_detials {
+    padding-right: 20px;
+}
+
+.order_details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+
+#cancel_order_button {
+    position: relative;
+    top: -60px;
+    left: 1200px;
+    margin-right: 30px;
+    padding: 10px;
+    border: solid 2px rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: red;
+    text-transform: uppercase;
+
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+#cancel_order_button:hover {
+    background: rgb(222, 21, 21);
+    color: white;
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.123);
+}
+
+#cancel_order_button:active {
+    transform: scale(0.9);
+}
+
+
+
+/* order tracking list -------------------------------- */
+.hh-grayBox {
+    background-color: #F8F8F8;
+    margin-bottom: 20px;
+    padding: 35px;
+    margin-top: 20px;
+}
+
+.pt45 {
+    padding-top: 45px;
+    width: 1000px;
+    background-color: #F8F8F8;
+    
+}
+
+.order-tracking {
+    text-align: center;
+    width: 25%;
+    position: relative;
+    display: block;
+}
+
+.order-tracking .is-complete {
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 0px solid #AFAFAF;
+    background-color: #f7be16;
+    margin: 0 auto;
+    transition: background 0.25s linear;
+    -webkit-transition: background 0.25s linear;
+    z-index: 2;
+    margin-top: -10px;
+}
+
+.order-tracking .is-complete:after {
+    display: block;
+    position: absolute;
+    content: '';
+    height: 14px;
+    width: 7px;
+    top: -2px;
+    bottom: 0;
+    left: 5px;
+    margin: auto 0;
+    border: 0px solid #AFAFAF;
+    border-width: 0px 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+}
+
+.order-tracking.completed .is-complete {
+    border-color: #27aa80;
+    border-width: 0px;
+    background-color: #27aa80;
+    margin-top: -10px;
+}
+
+.order-tracking.completed .is-complete:after {
+    border-color: #fff;
+    border-width: 0px 3px 3px 0;
+    width: 7px;
+    left: 11px;
+    opacity: 1;
+}
+
+.order-tracking p {
+    color: #A4A4A4;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+
+.order-tracking p span {
+    font-size: 14px;
+}
+
+.order-tracking.completed p {
+    color: #000;
+}
+
+.order-tracking::before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: calc(100% - 40px);
+    background-color: #f7be16;
+    top: 13px;
+    position: absolute;
+    left: calc(-50% + 20px);
+    z-index: 0;
+}
+
+.order-tracking:first-child:before {
+    display: none;
+}
+
+.order-tracking.completed:before {
+    background-color: #27aa80;
+}

@@ -1,0 +1,185 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.main-page {
+    margin: 10px;
+    display: flex;
+}
+
+.sidebar-logSin {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    position: fixed;
+    width: 10%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: bottom left;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.side-txt {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    padding: 20px;
+}
+
+
+
+/* -----------------login---------------- */
+.login-cont {
+    margin-left: 10%;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.login-img {
+    background-color: rgb(124, 188, 245);
+    width: 100%;
+    height: 80%;
+    padding: 5px;
+}
+
+#login-img {
+    width: 100%;
+    height: 100%;
+}
+
+.login-cont-form {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.login-form {
+    background-color: rgb(219, 238, 245);
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    padding: 50px 10px;
+    border: 1px solid grey;
+}
+
+/* --------------------sign------------------ */
+.sign-cont {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sign-img {
+    background-color: rgb(124, 188, 245);
+    width: 100%;
+    height: 80%;
+    padding: 5px;
+}
+
+#sign-img {
+    width: 100%;
+    height: 100%;
+}
+
+.sign-cont-form {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.sign-form {
+    background-color: rgb(219, 238, 245);
+    float: right;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    padding: 10px 10px;
+    border: 1px solid grey;
+}
+#heading-sign{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#cancel-btn-form{
+    float: right;
+    margin: -30px;
+    border: none;
+}
+/*------------------ animation----------- */
+.animate-top {
+    position: relative;
+    animation: animatetop 0.4s
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.animate-bottom {
+    position: relative;
+    animation: animatebottom 0.4s
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+.form_modal{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content: center;
+}

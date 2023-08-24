@@ -1,0 +1,107 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.features1 {}
+
+.f1_heading {
+    padding: 30px 20px 30px 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#f1_h {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+#buttons_f1 {
+    display: flex;
+
+}
+
+.right_btn {
+    overflow: hidden;
+    border: 4px solid transparent;
+    /* background: linear-gradient(to right, rgb(255, 216, 117) 40%, rgb(255, 216, 117) 20%, rgb(255, 216, 117) 40%, rgb(243, 230, 196) 50%, rgb(243, 230, 196) 55%, lightblue 70%, rgb(248, 204, 93) 100%); */
+    background: linear-gradient(to right, rgb(200 215 233) 40%, rgb(207 226 251 / 88%) 20%, rgb(199 216 239) 40%, rgb(213 219 227) 50%, #56667a00 55%, #778599 70%, rgb(204 216 233) 100%);
+    background-size: 200% auto;
+    transform: rotate(10deg);
+    width: 60px;
+    border-radius: 50%;
+    height: 58px;
+    width: 78px;
+    margin: 5px;
+
+}
+
+#right_txt {
+    background-color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    width: 70px;
+}
+
+.left_btn {
+    overflow: hidden;
+    border: 4px solid transparent;
+    /* background: linear-gradient(to right, rgb(243, 230, 196) 20%, rgb(255, 216, 117) 40%, rgb(253, 200, 66) 50%, goldenrod 55%, rgb(255, 216, 117) 70%, rgb(243, 230, 196) 100%); */
+    background: linear-gradient(to left, rgb(207 225 249 / 73%) 40%, rgb(122 144 175) 20%, rgb(164 185 215) 40%, rgb(200 212 229) 50%, #c8d7e9 55%, #9db1cd 70%, #b0d2fd61 100%);
+    background-size: 200% auto;
+    transform: rotate(-10deg);
+    width: 60px;
+    border-radius: 50%;
+    height: 58px;
+    width: 78px;
+    margin: 5px;
+
+}
+
+#left_txt {
+    background-color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    width: 70px;
+    transform: scaleX(-1);
+
+}
+
+.f1_block_box {
+    width: 80vw;
+    /* overflow-x: hidden; */
+    padding-bottom: 20px;
+    margin: auto;
+
+}
+
+.f1_block {
+    margin-top: 20px;
+    /* max-width: 80%; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+#f2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    height: 365px;
+    width: 234px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+
+#f2:hover {
+    transform: scale(1.05);
+}

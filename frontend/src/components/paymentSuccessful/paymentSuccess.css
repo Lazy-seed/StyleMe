@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.payment{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.discription{
+    width: 50%;
+    margin-bottom: 100px;
+
+}
+.dis{
+    background-color: rgb(189, 220, 255);
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    height: 460px;
+    font-weight: 600;
+}
+
+.dis h2{
+    font-size: 100px;
+}
+.dis img{
+    margin-top: 20px;
+    width: 100px;
+}
+
+.order_btn{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 358px;
+    width: 50%;
+    height: 6%;
+    border-width: 3px;
+    border-color: rgb(0, 4, 255);
+
+}
+#order_text{
+color: aqua;
+padding-left: 100px;
+margin-bottom: 10px;
+margin-top: 5px;
+
+}
+
+
+/* right */
+.success-img{
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.img_conta{
+    background-color: rgba(187, 0, 255, 0.286);
+    padding: 30px;
+    margin-top: 50px;
+    margin-right: 150px;
+    height: 460px;
+
+}
+.ordersD{
+    margin: 20px 60px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.orderN{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}

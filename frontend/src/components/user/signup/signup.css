@@ -1,0 +1,124 @@
+.alert_box {
+    position: fixed;
+    left: 38vw;
+    top: 10vh;
+    /* margin:  auto; */
+
+}
+
+
+.login_container {
+    background-color: #F3EBF6;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+    background-image: url("./bg_login.jpg");
+    background-size: cover;
+
+}
+
+.login_main {
+    position: relative;
+    top: 20vh;
+    background-color: #FFFFFF;
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.login_sign {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #8C55AA;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.login_un {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+form.form1 {
+    padding-top: 40px;
+}
+
+.login_pass {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.un:focus,
+.pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+
+}
+
+.login_submit {
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    border: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    width: 200px;
+    height: 30px;
+    padding: 2px;
+    margin: auto;
+    border-radius: 10px;
+    opacity: .8;
+}
+.login_submit:hover{
+    opacity: 1;
+
+}
+.login_submit:active {
+    transform: scale(0.9);
+
+}
+
+
+
+.forgot {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    padding-top: 15px;
+}
+
+.sign_up_link{
+    /* border: 1px solid red; */
+    margin: 50px;
+}

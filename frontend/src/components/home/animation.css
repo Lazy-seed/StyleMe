@@ -1,0 +1,95 @@
+.reveal {
+    position: relative;
+    opacity: 0;
+  }
+  
+  .reveal.active {
+    opacity: 1;
+  }
+  
+  .active.fade-bottom {
+    animation: fade-bottom .4s;
+  }
+  
+  .active.fade-left {
+    animation: fade-left .1s ease-in;
+  }
+  
+  .active.fade-right {
+    animation: fade-right .1s ease-in;
+  }
+  
+  .active.animatezoom {
+    animation: animatezoom 0.4s;
+  }
+  .active.animate-top {
+    animation: animatetop 0.8s
+  }
+
+  @keyframes animatetop {
+    from {
+        top: -100px;
+        opacity: 0
+    }
+  
+    to {
+        top: 0;
+        opacity: 1
+    }
+  }
+  @keyframes animatezoom {
+    from {
+      transform: scale(0)
+    }
+  
+    to {
+      transform: scale(1)
+    }
+  }
+  
+  @keyframes fade-bottom {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .animatezoom-sign {
+    animation: animatezoom 0.4s;
+  }
+  @keyframes animatezoom {
+    from {
+      transform: scale(0)
+    }
+  
+    to {
+      transform: scale(1)
+    }
+  }
+  
